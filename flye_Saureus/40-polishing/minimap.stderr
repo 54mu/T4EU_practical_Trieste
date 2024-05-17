@@ -1,0 +1,11 @@
+[samfaipath] build FASTA index...
+[M::mm_idx_gen::0.128*1.01] collected minimizers
+[M::mm_idx_gen::0.149*1.38] sorted minimizers
+[M::main::0.149*1.38] loaded/built the index for 2 target sequence(s)
+[M::mm_mapopt_update::0.160*1.36] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 2
+[M::mm_idx_stat::0.167*1.34] distinct minimizers: 527796 (96.41% are singletons); average occurrences: 1.051; average spacing: 5.348; total length: 2967147
+[M::worker_pipeline::2.132*1.06] mapped 2 sequences
+[M::main] Version: 2.24-r1155-dirty
+[M::main] CMD: flye-minimap2 -x map-ont -t 4 -a -p 0.5 -N 10 --sam-hit-only -L -K 1G -z 1000 -Q --secondary-seq -I 64G /home/jovyan/work/Esercitazioni/flye_dir/40-polishing/filtered_contigs.fasta /home/jovyan/work/Esercitazioni/flye_dir/30-contigger/graph_final.fasta
+[M::main] Real time: 2.150 sec; CPU: 2.286 sec; Peak RSS: 0.098 GB

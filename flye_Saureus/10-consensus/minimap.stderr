@@ -1,0 +1,12 @@
+[samfaipath] build FASTA index...
+[M::mm_idx_gen::0.137*1.01] collected minimizers
+[M::mm_idx_gen::0.158*1.37] sorted minimizers
+[M::main::0.158*1.37] loaded/built the index for 2 target sequence(s)
+[M::mm_mapopt_update::0.169*1.35] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 2
+[M::mm_idx_stat::0.176*1.34] distinct minimizers: 553797 (96.33% are singletons); average occurrences: 1.048; average spacing: 5.348; total length: 3104031
+[M::worker_pipeline::226.742*3.85] mapped 69906 sequences
+[M::main] Version: 2.24-r1155-dirty
+[M::main] CMD: flye-minimap2 -x map-ont -t 4 -a -p 0.5 -N 10 --sam-hit-only -L -K 1G -z 1000 -Q --secondary-seq -I 64G /home/jovyan/work/Esercitazioni/flye_dir/00-assembly/draft_assembly.fasta /home/jovyan/work/Esercitazioni/long_reads.filtered.fastq
+[M::main] Real time: 226.802 sec; CPU: 872.593 sec; Peak RSS: 3.963 GB
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
